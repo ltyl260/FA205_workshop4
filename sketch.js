@@ -1,7 +1,7 @@
 let height = 0;
 let waterLevel = 400;
 function setup() {
-  background(220);
+  background(211, 230, 232);
   createCanvas(400, 400);
   text('     Click to turn on water \nClick again to increase speed', 130, 200);
 }
@@ -15,7 +15,7 @@ let countInterval = setInterval(waterDrop, 50);
 }
 
 function waterDrop() {
-  background(220);
+  background(211, 230, 232);
   noStroke();
   fill(143, 188, 204);
   circle(200, height, 10);
