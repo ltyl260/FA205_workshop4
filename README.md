@@ -1,4 +1,4 @@
-*link: [https://ltyl260.github.io/FA205_workshop3.5/](https://ltyl260.github.io/workshop-task-3.5/](https://ltyl260.github.io/FA205_workshop4/)*
+*link: https://ltyl260.github.io/FA205_workshop4/*
 
 # Workshop 4: Interactivity
 the URL for the original task is here: https://ellap4n.github.io/workshop-task-2/
