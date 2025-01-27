@@ -11,7 +11,6 @@ function setup() {
   waterdrop4 = new Waterdrop(200, 0, 50);
   waterdrop5 = new Waterdrop(200, 0, 50);
   minL = 50
-  print(height);
   clicked = -1;
   text('     Click to turn on water \nClick again to increase speed', 130, height/2);
 }
@@ -55,7 +54,6 @@ function mousePressed() { //fixed indentation
   } 
   if (clicked >=5){ // after all waterdrops have been created further clicks will speed up the drops, further clicks will speed up waterdrop speed.
     waterdrop1.speedUp();
-    print(waterdrop1.velocity)
     waterdrop2.speedUp();
     waterdrop3.speedUp();
     waterdrop4.speedUp();
